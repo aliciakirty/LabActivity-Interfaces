@@ -13,6 +13,7 @@ public class Main {
 
         // Add unrelated objects to the same list
         accountsPayable.add(new SalariedEmployee("Alice Smith", "E001", 1200.00));
+        accountsPayable.add(new HourlyEmployee("James", "A001", 7, 20));
         accountsPayable.add(new Invoice("Widget-99", 5, 20.00));
         accountsPayable.add(new SalariedEmployee("Bob Jones", "E002", 1500.00));
         accountsPayable.add(new Invoice("Hammer-01", 2, 15.50));

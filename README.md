@@ -1,2 +1,1 @@
-# LabActivity-Interfaces
-# LabActivity-Interfaces
+i chose to use an interface for Payable because both the Employee and Invoice classes need a way to calculate payment, even though they aren’t directly related in a class hierarchy. by using an interface, each class can implement the getPaymentAmount() method in its own way while still following the same contract. it keeps the design flexible and makes it easier to treat different objects in the same way through the Payable interface.
